@@ -18,30 +18,60 @@ In the project a unique data set given which is from a company who sell gift ite
 After Uplloading the data set in the colab we do some analysis which is explained in the below points :-
 
 1.Load the data
+
 2.First View of the data by using Head function
+
 3.Exploratory data analysis
+
 4.Hypothesis Testing
+
 5.Feature Engineering & Data Pre-processing (missing values, prepare data for modeling, and handled outliers and data scaling)
+
 6.data modeling here we have formed clusters using Kmeans cluster and silhouette analysis and finally, we have visualized all clusters using dendrograms.
 
 Above steps are used for the Online Retail Customer Segmentation unsupervised capstone project.
 
-1.Insights from the project
+Insights from the project
 
-2.WHITE HANGING HEART T-LIGHT HOLDER is most in demand.
+1WHITE HANGING HEART T-LIGHT HOLDER is most in demand.
 
-3.United Kingdom is the country who is buying most number of gifts.
+2.United Kingdom is the country who is buying most number of gifts.
 
-4.Saudi Arabia bought least number of gifts.
+3.Saudi Arabia bought least number of gifts.
 
-5.DOTCOM POSTAGE is the gift which genrated the highest revenue
+4.DOTCOM POSTAGE is the gift which genrated the highest revenue
 
-6.Invoice no 5881483 is having highest quantity which is 80995
+5.Invoice no 5881483 is having highest quantity which is 80995
 
-7.invoice NO 581483 has a final sell of 168469 .
+6.invoice NO 581483 has a final sell of 168469 .
 
-8.DOT stock code gift generated a total of $ 2,06,245 in revenue .
+7.DOT stock code gift generated a total of $ 2,06,245 in revenue .
 
-9.WORLD WAR 2 GLIDERS is the most bought item ever with 53847 quantity.
+8.WORLD WAR 2 GLIDERS is the most bought item ever with 53847 quantity.
 
-Total reveanue of only UK is 8 million.
+9.Total reveanue of only UK is 8 million.
+
+***Problem Statement***
+
+In this project, your task is to identify major customer segments on a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
+
+
+***Variables Description***
+
+Fields : Description
+
+Invoice NO : Invoice number
+
+Stock Code : Stock name code
+
+Description : Description of product
+
+Quantity : Quantity bought
+
+InvoiceDate : Invoice date
+
+UnitPrice : Price per unit
+
+Customer ID : Unique customer id
+
+Country : location
